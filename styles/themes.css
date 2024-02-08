@@ -1,6 +1,64 @@
-/* В этом файле вы опишете значения переменных в разных цветовых схемах.
-Придерживайтесь такого именования классов:
-✦ theme-dark — класс тёмной темы
-✦ theme-light — класс светлой темы
-✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
-*/
+@media (prefers-color-scheme: light) {
+    :root {
+        --wgth-title: 700;
+        --wgth-text: 400;
+        --color-text: #000;
+        --color-bt: #fff;
+        --color-gradient-repeating: #d3d3d3;
+        --color-gradient-top: #e7e7e7;
+        --color-gradient-bottom: #1a1a1a;
+        --background-color: #fff;
+        --background:
+                repeating-linear-gradient(transparent, var(--color-gradient-repeating) 2px),
+                repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+                linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --wgth-title: 785;
+        --wgth-text: 465;
+        --color-text: #00CC14;
+        --color-bt: #00CC14;
+        --color-gradient-repeating: #000;
+        --color-gradient-top: #007f0c;
+        --color-gradient-bottom: #004306;
+        --background-color: #000;
+        --background:
+                repeating-linear-gradient(transparent, var(--color-gradient-repeating) 2px),
+                repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+                linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
+    }
+}
+
+
+.theme-light {
+    --wgth-title: 700;
+    --wgth-text: 400;
+    --color-text: #000;
+    --color-bt: #fff;
+    --color-gradient-repeating: #d3d3d3;
+    --color-gradient-top: #e7e7e7;
+    --color-gradient-bottom: #1a1a1a;
+    --background-color: #fff;
+    --background:
+            repeating-linear-gradient(transparent, var(--color-gradient-repeating) 2px),
+            repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+            linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
+}
+
+.theme-dark {
+    --wgth-title: 785;
+    --wgth-text: 465;
+    --color-text: #00CC14;
+    --color-bt: #00CC14;
+    --color-gradient-repeating: #000;
+    --color-gradient-top: #007f0c;
+    --color-gradient-bottom: #004306;
+    --background-color: #000;
+    --background:
+            repeating-linear-gradient(transparent, var(--color-gradient-repeating) 2px),
+            repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+            linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
+}

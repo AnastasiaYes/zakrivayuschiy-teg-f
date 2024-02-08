@@ -1,1 +1,17 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter-Variable', arial;
+    --accent-font: 'PressStart2P';
+    --wgth-title: 700;
+    --wgth-text: 400;
+    --color-text: #000;
+    --color-bt: #fff;
+    --color-gradient-repeating: #d3d3d3;
+    --color-gradient-top: #e7e7e7;
+    --color-gradient-bottom: #1a1a1a;
+    --fill-color-like: #FF0000;
+    --background-color: #fff;
+    --background:
+            repeating-linear-gradient(transparent, var(--color-gradient-repeating) 2px),
+            repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+            linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
+}
