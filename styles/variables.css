@@ -1,6 +1,6 @@
 :root {
-    --main-font: 'Inter-Variable', arial;
-    --accent-font: 'PressStart2P';
+    --main-font: 'Inter-Variable', arial, sans-serif;
+    --accent-font: 'PressStart2P', arial, sans-serif;
     --wgth-title: 700;
     --wgth-text: 400;
     --color-text: #000;
@@ -13,5 +13,5 @@
     --background:
             repeating-linear-gradient(transparent, var(--color-gradient-repeating) 2px),
             repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
-            linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
+            linear-gradient(var(--color-gradient-top) 0.1%, var(--color-gradient-bottom));
 }
