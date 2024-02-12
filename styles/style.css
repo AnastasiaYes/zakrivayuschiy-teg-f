@@ -58,8 +58,16 @@
   text-transform: uppercase;
 }
 
-.theme-menu__button:disabled,
-.theme-menu__button:hover,
+.theme-menu__button:disabled {
+  transition: opacity 0.3s ease;
+  opacity: 0.6;
+}
+
+.theme-menu__button:hover {
+  transition: opacity 0.3s ease;
+  opacity: 0.6;
+}
+
 .theme-menu__button:focus-visible{
   transition: opacity 0.3s ease;
   opacity: 0.6;
