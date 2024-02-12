@@ -183,7 +183,7 @@ img {
 
 
 .card__text {
-  padding: 31px 25px;
+  padding: 31px 25px 33px;
 }
 
 .paragraph:not(:last-child) {

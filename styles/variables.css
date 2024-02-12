@@ -11,7 +11,7 @@
     --fill-color-like: #FF0000;
     --background-color: #fff;
     --background:
-            repeating-linear-gradient(transparent, var(--color-gradient-repeating) 2px),
+            repeating-linear-gradient(transparent, var(--color-gradient-repeating), transparent 2px),
             repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
             linear-gradient(var(--color-gradient-top) 0.1%, var(--color-gradient-bottom));
 }
