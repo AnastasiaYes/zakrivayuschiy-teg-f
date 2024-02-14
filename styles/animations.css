@@ -9,7 +9,7 @@
     transition-delay: 0.3s
 }
 
-.like-icon .core, .like-icon .main-body{
+.like-icon .core, .like-icon .main-body {
     fill: transparent;
     transition-duration: 0.2s;
     transition-delay: 0.2s

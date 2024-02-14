@@ -9,8 +9,8 @@
         --color-gradient-bottom: #1a1a1a;
         --background-color: #fff;
         --background:
-                repeating-linear-gradient(transparent, var(--color-gradient-repeating), transparent 2px),
-                repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+                repeating-linear-gradient(var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
+                repeating-linear-gradient(90deg, var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
                 linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
     }
 }
@@ -26,8 +26,8 @@
         --color-gradient-bottom: #004306;
         --background-color: #000;
         --background:
-                repeating-linear-gradient(transparent, var(--color-gradient-repeating), transparent 2px),
-                repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+                repeating-linear-gradient(var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
+                repeating-linear-gradient(90deg, var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
                 linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
     }
 }
@@ -43,8 +43,8 @@
     --color-gradient-bottom: #1a1a1a;
     --background-color: #fff;
     --background:
-            repeating-linear-gradient(transparent, var(--color-gradient-repeating),  transparent 2px),
-            repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+            repeating-linear-gradient(var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(90deg, var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
             linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
 }
 
@@ -58,7 +58,7 @@
     --color-gradient-bottom: #004306;
     --background-color: #000;
     --background:
-            repeating-linear-gradient(transparent, var(--color-gradient-repeating), transparent 2px),
-            repeating-linear-gradient(90deg, var(--color-gradient-repeating), transparent 2px),
+            repeating-linear-gradient(var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
+            repeating-linear-gradient(90deg, var(--color-gradient-repeating) 0 2px, transparent 2px 4px),
             linear-gradient(var(--color-gradient-top) 0.01%, var(--color-gradient-bottom));
 }
