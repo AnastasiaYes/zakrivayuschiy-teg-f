@@ -9,6 +9,7 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
@@ -61,6 +62,7 @@
 .theme-menu__button:disabled {
   transition: opacity 0.3s ease;
   opacity: 0.6;
+  pointer-events: none;
 }
 
 .theme-menu__button:hover {
@@ -88,11 +90,6 @@
 .theme-menu__button:focus-visible::after {
   transform: scaleX(1);
   opacity: 0.6;
-}
-
-
-.theme-menu__button:disabled {
-  pointer-events: none;
 }
 
 .theme-menu__button:disabled:before {
